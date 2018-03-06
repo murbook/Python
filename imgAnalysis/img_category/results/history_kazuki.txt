@@ -1,0 +1,2 @@
+epoch	loss	acc	val_loss	val_acc
+0	1.875015	0.197917	1.798562	0.250000
