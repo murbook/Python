@@ -6,7 +6,10 @@ sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 import os
 import requests # urlを読み込むためrequestsをインポート
 from bs4 import BeautifulSoup # htmlを読み込むためBeautifulSoupをインポート
+#変更だぞ〜
+#さらに〜
 
+#もいっちょ
 URL = 'http://wear.jp/women-item/?brand_id=12230&type_category_id=108&'
 imgdir=URL.split("/")[-1] #最後の文字列をファイルの名前にする
 imgPath = '/Users/corno/Python/imgAnalysis/scraping/'+imgdir+"/"
